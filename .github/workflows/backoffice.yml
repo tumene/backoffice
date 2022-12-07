@@ -42,7 +42,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Run actions/checkout@v3
       - uses: actions/checkout@v3
 
       # - name: Set up Docker Buildx
