@@ -1,0 +1,81 @@
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  min-height: 100vh;
+}
+
+/* You can add global styles to this file, and also import other style files */
+@import "./assets/scss/theme";
+@import "./assets/scss/base";
+
+.otp-input {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 16px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid var(--cool-grey-20);
+  font-size: 20px;
+  background-color: var(--cool-grey-20);
+  margin-right: 16px;
+  outline-color: var(--equity);
+
+  &:focus {
+    border: 1px solid var(--equity);
+  }
+}
+
+mat-card {
+  border-radius: 0.5rem !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+.mat-checkbox-inner-container {
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+}
+
+button {
+  &.mat-button {
+    border-radius: 8px !important;
+    min-height: 48px;
+  }
+
+  &.mat-flat-button {
+    border-radius: 8px !important;
+    min-height: 48px;
+
+    &:disabled {
+      color: var(--cool-grey) !important;
+      background-color: var(--cool-grey-40) !important;
+    }
+  }
+
+  &.mat-raised-button {
+    border-radius: 8px !important;
+    min-height: 48px;
+
+    &:disabled {
+      color: var(--cool-grey) !important;
+      background-color: var(--cool-grey-40) !important;
+    }
+  }
+
+  &.mat-stroked-button {
+    border-radius: 8px !important;
+    min-height: 48px;
+    background-color: var(--white);
+  }
+}
+
+
+.text-primary {
+  color: var(--equity) !important;
+}

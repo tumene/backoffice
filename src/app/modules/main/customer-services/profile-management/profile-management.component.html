@@ -1,0 +1,23 @@
+<div class="wrapper">
+  <div class="">
+    <app-profile-management-top-nav
+      title="360 &#176; Customer Profile"
+      toolbarPage=""
+    ></app-profile-management-top-nav>
+    <nav mat-tab-nav-bar>
+      <a
+        class="tab-link"
+        mat-tab-link
+        *ngFor="let link of navLinks"
+        [routerLink]="link.link"
+        routerLinkActive
+        #rla="routerLinkActive"
+        [active]="rla.isActive"
+      >
+        {{ link.label }}
+      </a>
+    </nav>
+    <div></div>
+    <router-outlet></router-outlet>
+  </div>
+</div>
