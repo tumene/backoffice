@@ -14,7 +14,7 @@ export class SidebarComponent implements OnInit {
   }
 
   returnLogoUrl(): string {
-    return `assets/images/icons/equity-logo.svg`;
+    return `assets/images/icons/helder-logo.svg`;
   }
 
 }

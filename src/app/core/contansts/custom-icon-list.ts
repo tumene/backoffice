@@ -85,6 +85,7 @@ export const SVG_ICONS = [
   'flight-return.svg',
   'flight-return-white.svg',
   'flight-white.svg',
+  'helder-logo.svg',
   'help-white.svg',
   'help.svg',
   'home-selected.svg',
